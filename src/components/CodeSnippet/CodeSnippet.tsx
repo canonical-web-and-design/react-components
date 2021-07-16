@@ -1,5 +1,4 @@
 import classNames from "classnames";
-import React from "react";
 
 import CodeSnippetBlock from "./CodeSnippetBlock";
 import type { CodeSnippetBlockProps } from "./CodeSnippetBlock";

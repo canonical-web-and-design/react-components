@@ -1,6 +1,5 @@
 import { mount } from "enzyme";
 import merge from "deepmerge";
-import React from "react";
 
 import ContextualMenuDropdown, {
   adjustForWindow,

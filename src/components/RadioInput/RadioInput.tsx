@@ -1,4 +1,4 @@
-import React, { HTMLProps } from "react";
+import { HTMLProps } from "react";
 import type { ReactNode } from "react";
 
 import CheckableInput from "../CheckableInput";

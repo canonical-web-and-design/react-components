@@ -1,6 +1,5 @@
 import { mount, shallow } from "enzyme";
 import merge from "deepmerge";
-import React from "react";
 
 import Tooltip, { adjustForWindow } from "./Tooltip";
 

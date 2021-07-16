@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Chip from "../../Chip";
 import { overflowingChipsCount, isChipInArray } from "../utils";
 import { highlightSubString } from "../../../utils";

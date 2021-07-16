@@ -1,5 +1,4 @@
 import type { HTMLProps, ReactNode } from "react";
-import React from "react";
 
 export type Props = {
   /**

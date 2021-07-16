@@ -1,5 +1,6 @@
 import classNames from "classnames";
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { CSSProperties } from "react";
 import type { ReactNode } from "react";
 import usePortal from "react-useportal";
 
@@ -263,7 +264,7 @@ const Tooltip = ({
                   tooltipClassName
                 )}
                 data-test="tooltip-portal"
-                style={positionStyle as React.CSSProperties}
+                style={positionStyle as CSSProperties}
               >
                 <span className="p-tooltip__message" ref={messageRef}>
                   {message}

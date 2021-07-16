@@ -1,4 +1,3 @@
-import React from "react";
 import type { ChangeEventHandler, HTMLProps, ReactNode } from "react";
 
 import Field from "../Field";

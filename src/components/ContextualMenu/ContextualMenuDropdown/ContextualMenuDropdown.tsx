@@ -1,5 +1,6 @@
 import classNames from "classnames";
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { CSSProperties, Key, MouseEvent as ReactMouseEvent } from "react";
 import type { ReactNode } from "react";
 
 import { useWindowFitment } from "../../../hooks";
@@ -127,7 +128,7 @@ export const adjustForWindow = (
  */
 const generateLink = <L,>(
   link: ButtonProps,
-  key: React.Key,
+  key: Key,
   closePortal: Props["closePortal"]
 ) => {
   const { children, className, onClick, ...props } = link;
@@ -137,7 +138,7 @@ const generateLink = <L,>(
       key={key}
       onClick={
         onClick
-          ? (evt: React.MouseEvent) => {
+          ? (evt: ReactMouseEvent) => {
               closePortal(evt.nativeEvent);
               onClick(evt);
             }
@@ -204,7 +205,7 @@ const ContextualMenuDropdown = <L,>({
   return (
     <span
       className={wrapperClass}
-      style={positionStyle as React.CSSProperties}
+      style={positionStyle as CSSProperties}
       {...props}
     >
       <span

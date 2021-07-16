@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import React, { useState, HTMLProps } from "react";
+import { useState, HTMLProps } from "react";
 
 import AccordionSection from "../AccordionSection";
 import type {

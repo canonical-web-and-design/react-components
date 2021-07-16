@@ -1,5 +1,3 @@
-import React from "react";
-
 import Spinner from "../Spinner";
 import type { Props } from "../Spinner/Spinner";
 import { IS_DEV } from "../../utils";

@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { HTMLAttributes, ReactNode } from "react";
 
 import Icon from "../Icon";

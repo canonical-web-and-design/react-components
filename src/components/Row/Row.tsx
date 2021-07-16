@@ -1,5 +1,4 @@
 import classNames from "classnames";
-import React from "react";
 import type { HTMLProps, ReactNode } from "react";
 
 type Props = {

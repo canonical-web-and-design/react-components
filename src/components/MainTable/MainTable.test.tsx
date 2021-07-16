@@ -1,5 +1,4 @@
 import { mount, shallow } from "enzyme";
-import React from "react";
 
 import MainTable from "./MainTable";
 import type { MainTableHeader, MainTableRow } from "./MainTable";

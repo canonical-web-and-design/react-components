@@ -1,4 +1,3 @@
-import React from "react";
 import type { ChangeEventHandler, HTMLProps } from "react";
 
 export type DropdownOptionProps = {

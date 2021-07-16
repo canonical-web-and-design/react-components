@@ -1,5 +1,4 @@
 import classNames from "classnames";
-import React from "react";
 import type { HTMLProps, ElementType, ReactNode, ComponentType } from "react";
 
 export type TabLink<P = null> = {

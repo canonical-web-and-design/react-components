@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import { nanoid } from "nanoid";
-import React, { useEffect, useRef, HTMLProps } from "react";
+import { useEffect, useRef, HTMLProps } from "react";
 import type { ReactNode } from "react";
 
 export type Props = {

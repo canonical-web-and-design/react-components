@@ -1,6 +1,6 @@
 import classNames from "classnames";
-import React from "react";
 import type { HTMLProps, FormEvent } from "react";
+import { forwardRef, createRef } from "react";
 
 import Icon from "../Icon";
 
@@ -39,7 +39,7 @@ export type Props = {
   value?: string;
 } & HTMLProps<HTMLFormElement>;
 
-const SearchBox = React.forwardRef<HTMLFormElement, Props>(
+const SearchBox = forwardRef<HTMLFormElement, Props>(
   (
     {
       autocomplete = "on",
@@ -54,7 +54,7 @@ const SearchBox = React.forwardRef<HTMLFormElement, Props>(
     }: Props,
     ref
   ) => {
-    const input = React.createRef<HTMLInputElement | null>();
+    const input = createRef<HTMLInputElement | null>();
     const resetInput = () => {
       onChange && onChange("");
       if (input.current) {

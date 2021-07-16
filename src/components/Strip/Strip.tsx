@@ -1,5 +1,4 @@
 import classNames from "classnames";
-import React from "react";
 import type { ElementType, HTMLProps, ReactNode } from "react";
 
 import Col from "../Col";

@@ -1,5 +1,3 @@
-import React from "react";
-
 import CodeSnippet, { CodeSnippetBlockAppearance } from "../CodeSnippet";
 import { IS_DEV } from "../../utils";
 

@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import { useTable } from "react-table";
 import type { Column } from "react-table";
 

@@ -1,5 +1,4 @@
 import { mount, shallow } from "enzyme";
-import React from "react";
 
 import { MOCK_UUID } from "../../setupTests";
 import Accordion from "./Accordion";

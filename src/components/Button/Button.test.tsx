@@ -1,5 +1,5 @@
 import { shallow } from "enzyme";
-import React from "react";
+import type { ReactNode } from "react";
 
 import Button from "./Button";
 
@@ -104,7 +104,7 @@ describe("Button ", () => {
     type LinkProps = {
       /** An address */
       to: string;
-      children: React.ReactNode;
+      children: ReactNode;
     };
     const Link = ({ children, to }: LinkProps) => <a href={to}>{children}</a>;
     const wrapper = shallow(<Button element={Link} to="http://example.com" />);

@@ -1,5 +1,4 @@
 import { shallow, mount } from "enzyme";
-import React from "react";
 
 import SearchAndFilter from "./SearchAndFilter";
 

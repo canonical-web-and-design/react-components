@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import type { HTMLAttributes, ReactNode } from "react";
 
 import Field from "../Field";

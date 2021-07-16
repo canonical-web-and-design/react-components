@@ -1,6 +1,6 @@
 import classNames from "classnames";
-import React from "react";
 import type { HTMLAttributes, ReactNode } from "react";
+import { isValidElement } from "react";
 
 import type { Headings } from "../../types";
 
@@ -98,7 +98,7 @@ const generateItems = (
     let TitleComponent: Headings = "h3";
     let liProps: HTMLAttributes<HTMLLIElement>;
     if (
-      React.isValidElement(item) ||
+      isValidElement(item) ||
       typeof item === "string" ||
       typeof item === "number"
     ) {

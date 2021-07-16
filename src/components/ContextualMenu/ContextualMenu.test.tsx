@@ -1,5 +1,5 @@
 import { mount } from "enzyme";
-import React from "react";
+import type { ReactNode } from "react";
 
 import ContextualMenu from "./ContextualMenu";
 
@@ -201,7 +201,7 @@ describe("ContextualMenu ", () => {
     type LinkProps = {
       /** An address */
       to: string;
-      children: React.ReactNode;
+      children: ReactNode;
     };
     const Link = ({ children, to }: LinkProps) => <a href={to}>{children}</a>;
     const wrapper = mount(

@@ -1,4 +1,3 @@
-import React from "react";
 import type { MouseEventHandler } from "react";
 import classNames from "classnames";
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import type { HTMLProps, ReactNode } from "react";
 
 import type { SortDirection } from "types";

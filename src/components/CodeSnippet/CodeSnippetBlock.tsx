@@ -1,6 +1,6 @@
 import classNames from "classnames";
-import React from "react";
 import type { ReactNode } from "react";
+import { Fragment } from "react";
 
 import CodeSnippetDropdown from "./CodeSnippetDropdown";
 import type { CodeSnippetDropdownProps } from "./CodeSnippetDropdown";
@@ -67,10 +67,10 @@ export default function CodeSnippetBlock({
     // wrap code lines in spans (and preserve the whitespace)
     const lines = code.split(/\r?\n/);
     numberedCode = lines.map((line, i) => (
-      <React.Fragment key={`p-code-snippet__line-${i}`}>
+      <Fragment key={`p-code-snippet__line-${i}`}>
         <span className="p-code-snippet__line">{line}</span>
         {"\n"}
-      </React.Fragment>
+      </Fragment>
     ));
   } else if (hasIcon) {
     className += "--icon";

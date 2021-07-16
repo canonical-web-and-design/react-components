@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import React, { useRef } from "react";
+import { useRef } from "react";
 import type { ReactNode } from "react";
 
 import type { Headings } from "types";

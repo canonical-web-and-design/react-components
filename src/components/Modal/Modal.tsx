@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import React, { ReactElement, ReactNode, useRef, useEffect } from "react";
+import { ReactElement, ReactNode, useRef, useEffect } from "react";
 
 export type Props = {
   /**

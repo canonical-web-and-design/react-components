@@ -1,6 +1,5 @@
 import classNames from "classnames";
 import type { HTMLProps } from "react";
-import React from "react";
 
 import type { ValueOf } from "../../types";
 
